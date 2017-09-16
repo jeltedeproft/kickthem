@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+  "TeamCount" "10"
+  "maps"      "kick_arena"
+  "IsPlayable"  "1"
+  "kick_arena"
+  {
+          "MaxPlayers"                    "10"
+  }
+}

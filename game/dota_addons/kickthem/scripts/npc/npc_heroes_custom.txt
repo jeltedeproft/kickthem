@@ -1,0 +1,52 @@
+"DOTAHeroes"
+{
+  "npc_dota_hero_earth_spirit_kick"
+  {
+    "override_hero"     "npc_dota_hero_earth_spirit"
+
+    "Ability1"                  "earth_spirit_boulder_smash_custom"
+    "Ability4"                  "earth_spirit_stone_caller_custom"
+    "Ability5"                  "earth_spirit_petrify"
+    "Ability7"                  "attribute_bonus"
+    "AbilityLayout"             "3"
+
+    // Armor
+    //-------------------------------------------------------------------------------------------------------------
+    "ArmorPhysical"             "1.0"                               // Physical protection.
+
+    // Attack
+    //-------------------------------------------------------------------------------------------------------------
+    "AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"           "0"                                    // Damage range min.
+    "AttackDamageMax"           "0"                                    // Damage range max.
+    "AttackRate"                "1.7"                                   // Speed of attack.
+    "AttackAnimationPoint"      "0.35"                                  // Normalized time in animation cycle to attack.
+    "AttackAcquisitionRange"    "600"                                   // Range within a target can be acquired.
+    "AttackRange"               "150"                                   // Range within a target can be attacked.
+
+    // Attributes
+    //-------------------------------------------------------------------------------------------------------------
+    "AttributePrimary"              "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"         "0"                                    // Base strength
+    "AttributeStrengthGain"         "0"                                   // Strength bonus per level.
+    "AttributeBaseAgility"          "0"                                    // Base agility
+    "AttributeAgilityGain"          "0"                                   // Agility bonus per level.
+    "AttributeBaseIntelligence"     "0"                                    // Base intelligence
+    "AttributeIntelligenceGain"     "0"                                   // Intelligence bonus per level.
+
+    // Movement
+    //-------------------------------------------------------------------------------------------------------------
+    "MovementSpeed"             "450"                                   // Speed.
+    "MovementTurnRate"          "0.6"                                   // Turning rate.
+    
+    // Vision
+    //-------------------------------------------------------------------------------------------------------------
+    "VisionDaytimeRange"        "1800"                                  // Range of vision during day light.
+    "VisionNighttimeRange"      "800"                                   // Range of vision at night
+
+    "StatusHealth"                "1"       // Base health.
+    "StatusHealthRegen"           "0"         // Health regeneration rate.
+    "StatusMana"                  "0"         // Base mana.
+    "StatusManaRegen"             "0"         // Mana regeneration rate.
+  }
+}
